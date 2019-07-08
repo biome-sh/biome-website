@@ -4,6 +4,7 @@ install:
   - sudo dpkg -i /tmp/hugo.deb
 
 script:
+  - pwd
   - hugo
 
 deploy:
