@@ -5,6 +5,7 @@ install:
 
 script:
   - pwd
+  - ls -la
   - hugo
 
 deploy:
