@@ -20,21 +20,21 @@ googleAnalytics = "" #put your google-analytics ID here
     name = "Getting Started"
     href = "#gettingstarted"
 
-  [[params.navigation]]
-    name = "FAQ"
-    href = "#faq"
+  # [[params.navigation]]
+  #   name = "FAQ"
+  #   href = "#faq"
 
-  [[params.navigation]]
-    name = "Links"
-    href = "#links"
+  # [[params.navigation]]
+  #   name = "Links"
+  #   href = "#links"
 
   [params.intro]
     title = "An open source distribution of Chef Habitat™"
     description = "No restrictions, no commercial licensing, and no cost. Free to use for anyone for personal or commercial purposes. Biome was forked from Chef's Habitat project to create a truly open source and free to use distribution following Chef's guidelines."
     image = "images/pic01.jpg"
     [[params.intro.action]]
-      buttontext = "Why Biome?"
-      href = "generic.html"
+      buttontext = "Get Biome"
+      href = "https://github.com/biome-sh/biome/releases/latest"
 
 
   [[params.section]]
@@ -48,120 +48,125 @@ googleAnalytics = "" #put your google-analytics ID here
       [[params.section.feature]]
         title = "Self-contained application builds"
         description = "Each build of your application is self-contained and thus self-sufficient. All dependencies are specified explicitly, ensuring that on deployment it runs exactly as designed, on the exact versions of dependencies you specify. Bypassing Operating System dependencies for guaranteed success."
-        icon = "fa-code"
+        icon = "fa-clone"
 
       [[params.section.feature]]
         title = "Deployment channels and management"
         description = "Manage your deployment with channels via Biome. Allow automatic updates on your deployed nodes when a pacakge is promoted to a new channel. Simplify your deployment drastically."
-        icon = "fa-copy"
+        icon = "fa-exchange"
 
       [[params.section.feature]]
         title = "Deploy Anywhere"
         description = "Applications packaged with Biome are portable. Once built, they can be exported for almost any runtime available, including Docker, Kubernetes, Mesos, VMs, Bare Metal.. you name it."
-        icon = "fa-diamond"
+        icon = "fa-cloud-upload"
     [params.section.footer]
-      enable = true
+      enable = false
       [[params.section.footer.action]]
         buttontext = "Learn More"
         buttonUrl = "generic.html"
 
+  # [[params.section]]
+  #   id = "second"
+  #   title = "Ipsum consequat"
+  #   description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+
+  #   [params.section.statistics]
+  #     enable = true
+  #     [[params.section.statistic]]
+  #       icon = "fa-code-fork"
+  #       value = "5,120"
+  #       text = "Etiam"
+  #     [[params.section.statistic]]
+  #       icon = "fa-folder-open-o"
+  #       value = "8,192"
+  #       text = "Magna"
+  #     [[params.section.statistic]]
+  #       icon = "fa-signal"
+  #       value = "2,048"
+  #       text = "Tempus"
+  #     [[params.section.statistic]]
+  #       icon = "fa-laptop"
+  #       value = "4,096"
+  #       text = "Aliquam"
+  #     [[params.section.statistic]]
+  #       icon = "fa-diamond"
+  #       value = "1,024"
+  #       text = "Nullam"
+
+  #   [params.section.content]
+  #     enable = true
+  #     text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+
+  #   [params.section.footer]
+  #     enable = true
+  #     [[params.section.footer.action]]
+  #       buttontext = "Learn More"
+  #       buttonUrl = "generic.html"
+
+
   [[params.section]]
-    id = "second"
-    title = "Ipsum consequat"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-
-    [params.section.statistics]
-      enable = true
-      [[params.section.statistic]]
-        icon = "fa-code-fork"
-        value = "5,120"
-        text = "Etiam"
-      [[params.section.statistic]]
-        icon = "fa-folder-open-o"
-        value = "8,192"
-        text = "Magna"
-      [[params.section.statistic]]
-        icon = "fa-signal"
-        value = "2,048"
-        text = "Tempus"
-      [[params.section.statistic]]
-        icon = "fa-laptop"
-        value = "4,096"
-        text = "Aliquam"
-      [[params.section.statistic]]
-        icon = "fa-diamond"
-        value = "1,024"
-        text = "Nullam"
-
-    [params.section.content]
-      enable = true
-      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
-
+    id = "gettingstarted"
+    title = "Getting Started"
+    description = "We're just getting started ourselves. If you want to know more about how Biome works, please feel free to browse the Chef Habitat™ documentation for starters. We will have more content here soon!"
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
-
-
-  [[params.section]]
-    id = "cta"
-    title = "Congue imperdiet"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-    [params.section.footer]
-      enable = true
-      [[params.section.footer.action]]
-        buttontext = "Get Started"
-        buttonUrl = "generic.html"
+        buttontext = "Chef Habitat™ Documentation"
+        buttonUrl = "https://www.habitat.sh/docs/"
         customClass = "special"
-      [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
+      # [[params.section.footer.action]]
+      #   buttontext = "Learn More"
+      #   buttonUrl = "generic.html"
 
   [params.footer]
     enable = true
-    title = "Aliquam sed mauris"
-    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+    title = "Get in touch"
+    description = "The best way to get in touch is via an Issue or Pull request on Github, or via Twitter. Check the social icons to the right to get in touch."
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    # second_title = "Contribute"
+    # address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
+    # phone = "(000) 000-0000 x 0000"
+    email = "humans@biome.sh"
 
-    [[params.footer.action]]
-      href = "generic.html"
-      buttontext = "Learn More"
+    # [[params.footer.action]]
+    #   href = "generic.html"
+    #   buttontext = "Learn More"
 
     # social icons
     [params.footer.social_list]
       enable = true
 
       [[params.footer.social]]
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/biome-sh"
+
+      [[params.footer.social]]
         title = "Twitter"
         icon = "fa-twitter"
-        link = "#"
+        link = "https://twitter.com/biome_sh"
 
-      [[params.footer.social]]
-        title = "Facebook"
-        icon = "fa-facebook"
-        link = "#"
+      # [[params.footer.social]]
+      #   title = "Facebook"
+      #   icon = "fa-facebook"
+      #   link = "#"
 
-      [[params.footer.social]]
-        title = "Instagramm"
-        icon = "fa-instagram"
-        link = "#"
+      # [[params.footer.social]]
+      #   title = "Instagramm"
+      #   icon = "fa-instagram"
+      #   link = "#"
 
-      [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
-        link = "#"
+      # [[params.footer.social]]
+      #   title = "Dribbble"
+      #   icon = "fa-dribbble"
+      #   link = "#"
 
       [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
-        link = "#"
+        link = "mailto:humans@biome.sh"
 
     # copyright
     [params.footer.copyright]
       enable = true
-      text = "© Untitled, Design: [HTML5UP](//html5up.net)"
+      text = "Habitat™ is a trademark of Chef Software Inc. Biome is a distribution of Chef Habitat™ and is in no way associated with Chef Software Inc."
