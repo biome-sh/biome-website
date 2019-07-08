@@ -4,8 +4,8 @@ set -e
 
 echo "${GITHUB_AUTH_SECRET}" > ~/.git-credentials && chmod 0600 ~/.git-credentials
 git config --global credential.helper store
-git config --global user.email "<GITHUB LOGIN OF BOT>@users.noreply.github.com"
-git config --global user.name "My cool bot"
+git config --global user.email "biome-bot@users.noreply.github.com"
+git config --global user.name "Biome Bot"
 git config --global push.default simple
 
 rm -rf deployment
