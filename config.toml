@@ -8,6 +8,8 @@ themesdir = "themes"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
+googleAnalytics = "UA-143789782-1"
+
 [params]
   editURL = "https://github.com/biome-sh/biome-website/edit/master/content/"
   description = "Biome"
