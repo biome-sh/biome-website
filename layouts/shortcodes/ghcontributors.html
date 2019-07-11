@@ -1,0 +1,40 @@
+<style type="text/css">
+  .ghContributors{
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start
+  }
+  .ghContributors > div{
+    width: 25%;
+    display: inline-flex;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    border-bottom: solid #eee 1px;
+  }
+  .ghContributors > div img{
+    height: 48px;
+    width: 48px;
+    margin-bottom: .25em;
+    vertical-align: middle;
+  }
+  .ghContributors > div label{
+    padding-left: 4px;
+  }
+  .ghContributors > div span{
+    font-size: x-small;
+    padding-left: 4px;
+  }
+</style>
+<div class="ghContributors">
+  {{ $url := .Get 0 }}
+  {{ range getJSON $url }}
+    {{ if or (eq .login "thesentinels") (eq .login "chef-delivery") (eq .login "chef-ci") }}
+    {{ else }}
+      <div>
+        <img src="{{.avatar_url}}" class="inline">
+        <label><a href="{{.html_url}}">@{{.login}}</a></label>
+        <span class="contributions">{{.contributions}} commits</span>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
