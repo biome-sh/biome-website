@@ -55,7 +55,7 @@ url = "credits"
 weight = 30
 
 [Languages.fr]
-title = "Documentation du thème Hugo Learn"
+title = "Biome"
 weight = 2
 languageName = "Français"
 
