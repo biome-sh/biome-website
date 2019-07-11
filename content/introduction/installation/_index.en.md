@@ -15,6 +15,7 @@ $ wget https://github.com/biome-sh/biome/releases/download/bio-0.83.0/bio-0.83.0
 
 # Rename to 'bio'
 $ mv bio-0.83.0-x86_64-darwin /usr/local/bin/bio
+$ chmod +x /usr/local/bin/bio
 ```
 
 You can now run bio:
