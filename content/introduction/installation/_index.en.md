@@ -1,7 +1,6 @@
 ---
 title: Installation
 weight: 20
-disableToc: true
 ---
 
 Biome is distributed as a standalone portable binary for various platforms. Initial installation is as simple as downloading that binary and installing in your path.
