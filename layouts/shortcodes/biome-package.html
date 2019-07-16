@@ -1,0 +1,29 @@
+<style type="text/css">
+  .biomePackage {
+    display: inline-block;
+    width: 45%;
+    border: solid 1px var(--MENU-SEARCH-BOX-color);
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    margin-right: 1em;
+  }
+  .biomePackage p {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0;
+  }
+  .biomePackage p span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .biomePackage .ident {
+    font-size: small;
+    color: var(--MENU-SECTION-ACTIVE-CATEGORY-color);
+  }
+</style>
+<div class="biomePackage">
+  {{ $url := (printf "https://bldr.biome.sh/v1/depot/channels/%s/stable/pkgs/%s/latest" (.Get 0) (.Get 1)) }}
+  {{ $data := getJSON $url }}
+  <p>{{ $data.ident.origin }}<span>/</span>{{ $data.ident.name }}</p>
+  <span class="ident">{{ $data.ident.origin }}/{{ $data.ident.name }}/{{ $data.ident.version }}/{{ $data.ident.release }}</span>
+</div>
