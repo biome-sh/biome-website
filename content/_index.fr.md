@@ -6,15 +6,24 @@ Biome est une distribution communautaire de [Chef Habitat&trade;][habitat] publi
 
 These are releases of the `bio` binary for Biome that you can use to get started.
 
-| Version | Linux | Mac | Windows |
-| --- | --- | --- | --- |
-| [0.88.0][bio-0.88.0] (latest) | [download][bio-0.88.0-linux] | -- | -- |
-| [0.85.2][bio-0.85.2] | [download][bio-0.85.2-linux] | -- | -- |
-| [0.85.1][bio-0.85.1] | [download][bio-0.85.1-linux] | -- | -- |
-| [0.85.0][bio-0.85.0] | [download][bio-0.85.0-linux] | -- | -- |
-| [0.83.0][bio-0.83.0] | [download][bio-0.83.0-linux] | [download][bio-0.83.0-mac] | -- |
-| [0.82.0][bio-0.82.0] | [download][bio-0.82.0-linux] | -- | [download][bio-0.82.0-windows] |
 
+| Version              | Linux                        | Mac                        | Windows                        |
+|----------------------|------------------------------|----------------------------|--------------------------------|
+| [1.5.75][bio-1.5.75] | [download][bio-1.5.75-linux] | --                         | [download][bio-1.5.75-windows] |
+| [1.5.35][bio-1.5.35] | [download][bio-1.5.35-linux] | --                         | [download][bio-1.5.35-windows] |
+| [0.88.0][bio-0.88.0] | [download][bio-0.88.0-linux] | --                         | --                             |
+| [0.85.2][bio-0.85.2] | [download][bio-0.85.2-linux] | --                         | --                             |
+| [0.85.1][bio-0.85.1] | [download][bio-0.85.1-linux] | --                         | --                             |
+| [0.85.0][bio-0.85.0] | [download][bio-0.85.0-linux] | --                         | --                             |
+| [0.83.0][bio-0.83.0] | [download][bio-0.83.0-linux] | [download][bio-0.83.0-mac] | --                             |
+| [0.82.0][bio-0.82.0] | [download][bio-0.82.0-linux] | --                         | [download][bio-0.82.0-windows] |
+
+[bio-1.5.75]: https://github.com/biome-sh/biome/releases/tag/bio-1.5.75
+[bio-1.5.75-linux]: https://github.com/biome-sh/biome/releases/download/bio-1.5.75/bio-1.5.75-x86_64-linux
+[bio-1.5.75-windows]: https://github.com/biome-sh/biome/releases/download/bio-1.5.75/bio-1.5.75-x86_64-windows.zip
+[bio-1.5.35]: https://github.com/biome-sh/biome/releases/tag/bio-1.5.35
+[bio-1.5.35-linux]: https://github.com/biome-sh/biome/releases/download/bio-1.5.35/bio-1.5.35-x86_64-linux
+[bio-1.5.35-windows]: https://github.com/biome-sh/biome/releases/download/bio-1.5.35/bio-1.5.35-x86_64-windows.zip
 [bio-0.88.0]: https://github.com/biome-sh/biome/releases/tag/bio-0.88.0
 [bio-0.88.0-linux]: https://github.com/biome-sh/biome/releases/download/bio-0.88.0/bio
 [bio-0.85.2]: https://github.com/biome-sh/biome/releases/tag/bio-0.85.2
